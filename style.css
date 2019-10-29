@@ -1,0 +1,41 @@
+.image {
+    width: 750px;
+    height: 450px;
+    border: solid black;
+
+}
+
+.file-input {
+    visibility: hidden;
+}
+
+.upload-button {
+    font-size: 30px;
+    font-style: italic;
+    
+    
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 35px;
+    border-bottom: solid black;
+    background-color: firebrick;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+
+.navigation-bar:hover{
+    background-color: #30ADBE;
+}
+
+.navigation-select {
+    font-size: 35px;
+    font-style: italic;
+    font: blue;
+    
+}
